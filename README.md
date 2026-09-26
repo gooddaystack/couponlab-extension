@@ -5,6 +5,7 @@ The browser extension lists live coupon codes from CouponLab. Click the icon, pi
 Install it from a store. Do not treat this repository as the download.
 
 - [Chrome Web Store](https://chromewebstore.google.com/detail/couponlab/fmkenekppideckddmkgoagkcmdpmamca)
+- [Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/bkjmldepcinpajegmfddalaodacocnig)
 - Site: [couponlab.com](https://www.couponlab.com)
 - Privacy: [couponlab.com/privacy](https://www.couponlab.com/privacy)
 
