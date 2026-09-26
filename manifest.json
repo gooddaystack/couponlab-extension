@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "CouponLab",
+  "version": "1.4.0",
+  "description": "Live coupon codes from CouponLab. Click the icon, pick a shop, copy a working code.",
+  "action": {
+    "default_title": "CouponLab",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "permissions": ["activeTab"],
+  "host_permissions": ["https://www.couponlab.com/*", "https://couponlab.com/*"]
+}

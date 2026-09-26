@@ -1,0 +1,103 @@
+:root {
+  --bg: #f3f5f8;
+  --card: #fff;
+  --fg: #101418;
+  --muted: #5c6570;
+  --subtle: #8a93a0;
+  --brand: #ea580c;
+  --accent: #2563eb;
+  --deal: #e11d48;
+  --border: #d9e0e8;
+}
+* { box-sizing: border-box; }
+html, body {
+  margin: 0;
+  width: 360px;
+  background: var(--bg);
+  color: var(--fg);
+  font: 14px/1.4 ui-sans-serif, system-ui, sans-serif;
+}
+header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 14px;
+  border-bottom: 1px solid var(--border);
+  background: var(--card);
+}
+.mark {
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
+  background: var(--brand);
+  flex-shrink: 0;
+}
+header strong { display: block; font-size: 15px; }
+header p { margin: 2px 0 0; color: var(--muted); font-size: 12px; }
+#hub {
+  margin-left: auto;
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 12px;
+}
+#list { padding: 10px 12px 4px; max-height: 420px; overflow: auto; }
+.card {
+  display: grid;
+  grid-template-columns: 72px 1fr auto;
+  gap: 10px;
+  align-items: center;
+  background: var(--card);
+  border-radius: 14px;
+  padding: 10px;
+  margin-bottom: 8px;
+  box-shadow: 0 0 0 1px #1014180f;
+}
+.stub {
+  text-align: center;
+  font-weight: 700;
+  color: var(--accent);
+  font-size: 13px;
+}
+.card.is-deal .stub { color: var(--deal); }
+.meta { min-width: 0; }
+.title { font-weight: 600; font-size: 13px; }
+.exp { color: var(--subtle); font-size: 11px; margin-top: 2px; word-break: break-all; }
+button {
+  border: 0;
+  border-radius: 10px;
+  height: 34px;
+  padding: 0 10px;
+  font-weight: 600;
+  font-size: 12px;
+  cursor: pointer;
+  background: var(--accent);
+  color: #fff;
+}
+button.deal { background: #101418; }
+.empty { padding: 10px 8px 14px; color: var(--muted); font-size: 13px; margin: 0; }
+.shops {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 0 4px 12px;
+}
+button.shop {
+  background: var(--card);
+  color: var(--fg);
+  box-shadow: 0 0 0 1px var(--border);
+  height: 32px;
+  padding: 0 12px;
+}
+button.shop:hover { background: #fff; }
+button.shop.back {
+  margin-bottom: 10px;
+  height: 28px;
+  font-size: 11px;
+}
+footer {
+  padding: 8px 14px 12px;
+  color: var(--subtle);
+  font-size: 11px;
+}
+footer a { color: var(--muted); }

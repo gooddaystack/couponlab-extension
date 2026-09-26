@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CouponLab</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <header>
+      <div class="mark" aria-hidden="true"></div>
+      <div>
+        <strong>CouponLab</strong>
+        <p id="status">Pick a shop</p>
+      </div>
+      <a id="hub" href="https://www.couponlab.com/stores" target="_blank" rel="noreferrer">Stores</a>
+    </header>
+    <main id="list">
+      <p class="empty">Tap a shop to copy a code. Works even if this tab is not a store.</p>
+      <div class="shops" id="shops">
+        <button class="shop" type="button" data-slug="walmart">Walmart</button>
+        <button class="shop" type="button" data-slug="amazon">Amazon</button>
+        <button class="shop" type="button" data-slug="target">Target</button>
+        <button class="shop" type="button" data-slug="homedepot">Home Depot</button>
+        <button class="shop" type="button" data-slug="bestbuy">Best Buy</button>
+        <button class="shop" type="button" data-slug="macys">Macy's</button>
+        <button class="shop" type="button" data-slug="sephora">Sephora</button>
+        <button class="shop" type="button" data-slug="kohls">Kohl's</button>
+        <button class="shop" type="button" data-slug="oldnavy">Old Navy</button>
+        <button class="shop" type="button" data-slug="walgreens">Walgreens</button>
+        <button class="shop" type="button" data-slug="doordash">DoorDash</button>
+        <button class="shop" type="button" data-slug="ubereats">Uber Eats</button>
+        <button class="shop" type="button" data-slug="nike">Nike</button>
+        <button class="shop" type="button" data-slug="us-shein">SHEIN</button>
+      </div>
+    </main>
+    <footer>
+      <a href="https://www.couponlab.com/privacy" target="_blank" rel="noreferrer">Privacy</a>
+      · codes from couponlab.com
+    </footer>
+    <script src="popup.js"></script>
+  </body>
+</html>
